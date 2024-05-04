@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+
+header{
+    background-color: cornflowerblue;
+    color: #fff;
+    font-size: 30px;
+    height: 50px;
+    padding: 10px 5px;
+}
+
+#search-box{
+    margin: 20px;
+    padding : 10px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-box input {
+    border: 3px solid #b0c0cab6;
+    border-radius: 5px;
+}
+
+#user {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding : 10px;
+}
+
+#user > div:nth-of-type(1){
+    width: 30%;
+    text-align: center;
+    font-weight: 700;
+}
+
+#user > div:nth-of-type(1) img {
+    width: 100%;
+}
+
+#user > div:nth-of-type(2){width: 70%;}
+
+#user .user_badges ul{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#user .user_badges ul li{
+    width: 22%;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#user .user_badges ul li:nth-of-type(1){background-color: cornflowerblue;}
+#user .user_badges ul li:nth-of-type(2){background-color: gray;}
+#user .user_badges ul li:nth-of-type(3){background-color: greenyellow;}
+#user .user_badges ul li:nth-of-type(4){background-color: rgb(1, 63, 1);}
+
+#user .uesr_information ul li{
+    border: 3px solid #ccc;
+    padding: 5px;
+    margin-top: -3px;
+} 
+
+#repository{
+    margin: 20px;
+    padding : 10px;
+}
+
+#repo_componenet{
+    margin: 15px 0;
+    padding: 15px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    border: 3px solid #ccc;
+
+}
+
+#repo_componenet h2{width: 25%;}
+#repo_componenet div{width: 75%;}
+#repo_componenet ul {
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+}
+
+#repo_componenet ul li{ 
+    padding: 5px 10px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+#repo_componenet ul li:nth-of-type(1){background-color: cornflowerblue;}
+#repo_componenet ul li:nth-of-type(2){background-color: gray;}
+#repo_componenet ul li:nth-of-type(3){background-color: greenyellow;}
+#repo_componenet ul li:nth-of-type(4){background-color: rgb(1, 63, 1);}
+
